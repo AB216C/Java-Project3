@@ -36,12 +36,12 @@ class Employee {
 public class EmployeesSalary {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("Peter", 29, 50000));
-        employees.add(new Employee("Jenesis", 35, 55000));
-        employees.add(new Employee("James", 40, 100000));
-        employees.add(new Employee("Bruce", 20, 30000));
-        employees.add(new Employee("Peter", 40, 250000));
-        employees.add(new Employee("Jane", 56, 350000));
+        employees.add(new Employee("Peter Jack", 29, 50000));
+        employees.add(new Employee("Jenesis Cody", 35, 55000));
+        employees.add(new Employee("James Candy", 40, 100000));
+        employees.add(new Employee("Bruce Lee", 20, 30000));
+        employees.add(new Employee("Manzi Pierre", 40, 250000));
+        employees.add(new Employee("Jane Murenzi", 56, 350000));
 
         //Created list of employees:
         System.out.println("Employees list:");
